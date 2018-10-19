@@ -9,7 +9,7 @@ import matplotlib
 from math import sqrt
 SPINE_COLOR = 'gray'
 
-def latexify(fig_width=6, fig_height=4, columns=1):
+def latexify(fig_width=None, fig_height=None, columns=1):
     """Set up matplotlib's RC params for LaTeX plotting.
     Call this before plotting a figure.
 
